@@ -1,0 +1,733 @@
+---
+-
+    Team: Celtics
+    City: Boston
+    State: Massachusetts
+    Venue: TD Garden
+    League: NBA
+-
+    Team: Nets
+    City: Brooklyn
+    State: New York
+    Venue: Barclays Center
+    League: NBA
+-
+    Team: Knicks
+    City: New York
+    State: New York
+    Venue: Madison Square Garden
+    League: NBA
+-
+    Team: 76ers
+    City: Philadelphia
+    State: Pennsylvania
+    Venue: Wells Fargo Center
+    League: NBA
+-
+    Team: Raptors
+    City: Toronto
+    State: Ontario
+    Venue: Air Canada Centre
+    League: NBA
+-
+    Team: Bulls
+    City: Chicago
+    State: Illinois
+    Venue: United Center
+    League: NBA
+-
+    Team: Cavaliers
+    City: Cleveland
+    State: Ohio
+    Venue: Quicken Loans Arena
+    League: NBA
+-
+    Team: Pistons
+    City: Detriot
+    State: Michigan
+    Venue: The Palace of Auburn Hills
+    League: NBA
+-
+    Team: Pacers
+    City: Indianapolis
+    State: Indiana
+    Venue: Bankers Life Fieldhouse
+    League: NBA
+-
+    Team: Bucks
+    City: Milwaukee
+    State: Wisconsin
+    Venue: Bradley Center
+    League: NBA
+-
+    Team: Hawks
+    City: Atlanta
+    State: Georgia
+    Venue: Philips Arena
+    League: NBA
+-
+    Team: Bobcats
+    City: Charlotte
+    State: North Carolina
+    Venue: Time Warner Cable Arena
+    League: NBA
+-
+    Team: Heat
+    City: Miami
+    State: Florida
+    Venue: AmericanAirlines Arena
+    League: NBA
+-
+    Team: Magic
+    City: Orlando
+    State: Florida
+    Venue: Amway Center
+    League: NBA
+-
+    Team: Wizards
+    City: Washington
+    State: D.C.
+    Venue: Verizon Center
+    League: NBA
+-
+    Team: Nuggets
+    City: Denver
+    State: Colorado
+    Venue: Pepsi Center
+    League: NBA
+-
+    Team: Timberwolves
+    City: Minneapolis
+    State: Minnesota
+    Venue: Target Center
+    League: NBA
+-
+    Team: Thunder
+    City: Oklahoma City
+    State: Oklahoma
+    Venue: Chesapeake Energy Arena
+    League: NBA
+-
+    Team: Trail Blazers
+    City: Portland
+    State: Oregon
+    Venue: Rose Garden
+    League: NBA
+-
+    Team: Jazz
+    City: Salt Lake City
+    State: Utah
+    Venue: EnergySolutions Arena
+    League: NBA
+-
+    Team: Warriors
+    City: Oakland
+    State: California
+    Venue: Oracle Arena
+    League: NBA
+-
+    Team: Clippers
+    City: Los Angeles
+    State: California
+    Venue: Staples Center
+    League: NBA
+-
+    Team: Lakers
+    City: Los Angeles
+    State: California
+    Venue: Staples Center
+    League: NBA
+-
+    Team: Suns
+    City: Phoenix
+    State: Arizona
+    Venue: US Airways Center
+    League: NBA
+-
+    Team: Kings
+    City: Sacramento
+    State: California
+    Venue: Power Balance Pavilion
+    League: NBA
+-
+    Team: Mavericks
+    City: Dallas
+    State: Texas
+    Venue: American Airlines Center
+    League: NBA
+-
+    Team: Rockets
+    City: Houston
+    State: Texas
+    Venue: Toyota Center
+    League: NBA
+-
+    Team: Grizzlies
+    City: Memphis
+    State: Tennessee
+    Venue: FedExForum
+    League: NBA
+-
+    Team: Hornets
+    City: New Orleans
+    State: Louisiana
+    Venue: New Orleans Arena
+    League: NBA
+-
+    Team: Spurs
+    City: San Antonio
+    State: Texas
+    Venue: AT&T Center
+    League: NBA
+-
+    Team: Braves
+    City: Atlanta
+    State: Georgia
+    Venue: Turner Field
+    League: MLB
+-
+    Team: Marlins
+    City: Miami
+    State: Florida
+    Venue: Marlins Park
+    League: MLB
+-
+    Team: Mets
+    City: New York
+    State: New York
+    Venue: Citi Field
+    League: MLB
+-
+    Team: Phillies
+    City: Philadelphia
+    State: Pennsylvania
+    Venue: Citizens Bank Park
+    League: MLB
+-
+    Team: Nationals
+    City: Washington
+    State: D.C.
+    Venue: Nationals Park
+    League: MLB
+-
+    Team: Cubs
+    City: Chicago
+    State: Illinois
+    Venue: Wrigley Field
+    League: MLB
+-
+    Team: Reds
+    City: Cincinnati
+    State: Ohio
+    Venue: Great American Ball Park
+    League: MLB
+-
+    Team: Brewers
+    City: Milwaukee
+    State: Wisconsin
+    Venue: Miller Park
+    League: MLB
+-
+    Team: Pirates
+    City: Pittsburgh
+    State: Pennsylvania
+    Venue: PNC Park
+    League: MLB
+-
+    Team: Cardinals
+    City: St. Louis
+    State: Missouri
+    Venue: Busch Stadium
+    League: MLB
+-
+    Team: Diamondbacks
+    City: Phoenix
+    State: Arizona
+    Venue: Chase Field
+    League: MLB
+-
+    Team: Rockies
+    City: Denver
+    State: Colorado
+    Venue: Coors Field
+    League: MLB
+-
+    Team: Dodgers
+    City: Los Angeles
+    State: California
+    Venue: Dodger Stadium
+    League: MLB
+-
+    Team: Padres
+    City: San Diego
+    State: California
+    Venue: PETCO Park
+    League: MLB
+-
+    Team: Giants
+    City: San Francisco
+    State: California
+    Venue: AT&T Park
+    League: MLB
+-
+    Team: Orioles
+    City: Baltimore
+    State: Maryland
+    Venue: Oriole Park at Camden Yards
+    League: MLB
+-
+    Team: Red Sox
+    City: Boston
+    State: Massachusetts
+    Venue: Fenway Park
+    League: MLB
+-
+    Team: Yankees
+    City: New York
+    State: New York
+    Venue: Yankee Stadium
+    League: MLB
+-
+    Team: Rays
+    City: Tampa
+    State: Florida
+    Venue: Tropicana Field
+    League: MLB
+-
+    Team: Blue Jays
+    City: Toronto
+    State: Ontario
+    Venue: Rogers Centre
+    League: MLB
+-
+    Team: White Sox
+    City: Chicago
+    State: Illinois
+    Venue: U.S. Cellular Field
+    League: MLB
+-
+    Team: Indians
+    City: Cleveland
+    State: Ohio
+    Venue: Progressive Field
+    League: MLB
+-
+    Team: Tigers
+    City: Detroit
+    State: Michigan
+    Venue: Comerica Park
+    League: MLB
+-
+    Team: Royals
+    City: Kansas City
+    State: Missouri
+    Venue: Kauffman Stadium
+    League: MLB
+-
+    Team: Twins
+    City: Minneapolis
+    State: Minnesota
+    Venue: Target Field
+    League: MLB
+-
+    Team: Astros
+    City: Houston
+    State: Texas
+    Venue: Minute Maid Park
+    League: MLB
+-
+    Team: Angels
+    City: Anaheim
+    State: California
+    Venue: Angel Stadium of Anaheim
+    League: MLB
+-
+    Team: Athletics
+    City: Oakland
+    State: California
+    Venue: O.co Coliseum
+    League: MLB
+-
+    Team: Mariners
+    City: Seattle
+    State: Washington
+    Venue: Safeco Field
+    League: MLB
+-
+    Team: Rangers
+    City: Arlington
+    State: Texas
+    Venue: Rangers Ballpark in Arlington
+    League: MLB
+-
+    Team: Bills
+    City: Orchard Park
+    State: New York
+    Venue: Ralph Wilson Stadium
+    League: NFL
+-
+    Team: Dolphins
+    City: Miami Gardens
+    State: Florida
+    Venue: Sun Life Stadium
+    League: NFL
+-
+    Team: Patriots
+    City: Foxborough
+    State: Massachusetts
+    Venue: Gillette Stadium
+    League: NFL
+-
+    Team: Jets
+    City: East Rutherford
+    State: New Jersey
+    Venue: MetLife Stadium
+    League: NFL
+-
+    Team: Ravens
+    City: Baltimore
+    State: Maryland
+    Venue: M&T Bank Stadium
+    League: NFL
+-
+    Team: Bengals
+    City: Cincinnati
+    State: Ohio
+    Venue: Paul Brown Stadium
+    League: NFL
+-
+    Team: Browns
+    City: Cleveland
+    State: Ohio
+    Venue: Cleveland Browns Stadium
+    League: NFL
+-
+    Team: Steelers
+    City: Pittsburgh
+    State: Pennsylvania
+    Venue: Heinz Field
+    League: NFL
+-
+    Team: Texans
+    City: Houston
+    State: Texas
+    Venue: Reliant Stadium
+    League: NFL
+-
+    Team: Colts
+    City: Indianapolis
+    State: Indiana
+    Venue: Lucas Oil Stadium
+    League: NFL
+-
+    Team: Jaguars
+    City: Jacksonville
+    State: Florida
+    Venue: EverBank Field
+    League: NFL
+-
+    Team: Titans
+    City: Nashville
+    State: Tennessee
+    Venue: LP Field
+    League: NFL
+-
+    Team: Broncos
+    City: Denver
+    State: Colorado
+    Venue: Sports Authority Field at Mile High
+    League: NFL
+-
+    Team: Chiefs
+    City: Kansas City
+    State: Missouri
+    Venue: Arrowhead Stadium
+    League: NFL
+-
+    Team: Raiders
+    City: Oakland
+    State: California
+    Venue: O.co Coliseum
+    League: NFL
+-
+    Team: Chargers
+    City: San Diego
+    State: California
+    Venue: Qualcomm Stadium
+    League: NFL
+-
+    Team: Cowboys
+    City: Arlington
+    State: Texas
+    Venue: Cowboys Stadium
+    League: NFL
+-
+    Team: Giants
+    City: East Rutherford
+    State: New Jersey
+    Venue: MetLife Stadium
+    League: NFL
+-
+    Team: Eagles
+    City: Philadelphia
+    State: Pennsylvania
+    Venue: Lincoln Financial Field
+    League: NFL
+-
+    Team: Redskins
+    City: Landover
+    State: Maryland
+    Venue: FedExField
+    League: NFL
+-
+    Team: Bears
+    City: Chicago
+    State: Illinois
+    Venue: Soldier Field
+    League: NFL
+-
+    Team: Lions
+    City: Detroit
+    State: Michigan
+    Venue: Ford Field
+    League: NFL
+-
+    Team: Packers
+    City: Green Bay
+    State: Wisconsin
+    Venue: Lambeau Field
+    League: NFL
+-
+    Team: Vikings
+    City: Minneapolis
+    State: Minnesota
+    Venue: Hubert H. Humphrey Metrodome
+    League: NFL
+-
+    Team: Falcons
+    City: Atlanta
+    State: Georgia
+    Venue: Georgia Dome
+    League: NFL
+-
+    Team: Panthers
+    City: Charlotte
+    State: North Carolina
+    Venue: Bank of America Stadium
+    League: NFL
+-
+    Team: Saints
+    City: New Orleans
+    State: Louisiana
+    Venue: Mercedes-Benz Superdome
+    League: NFL
+-
+    Team: Buccaneers
+    City: Tampa
+    State: Florida
+    Venue: Raymond James Stadium
+    League: NFL
+-
+    Team: Cardinals
+    City: Phoenix
+    State: Arizona
+    Venue: University of Phoenix Stadium
+    League: NFL
+-
+    Team: Rams
+    City: St. Louis
+    State: Missouri
+    Venue: Edward Jones Dome
+    League: NFL
+-
+    Team: 49ers
+    City: San Francisco
+    State: California
+    Venue: Candlestick Park
+    League: NFL
+-
+    Team: Seahawks
+    City: Seattle
+    State: Washington
+    Venue: CenturyLink Field
+    League: NFL
+-
+    Team: Devils
+    City: Newark
+    State: New Jersey
+    Venue: Prudential Center
+    League: NHL
+-
+    Team: Islanders
+    City: New York
+    State: New York
+    Venue: Nassau Veterans Memorial Coliseum
+    League: NHL
+-
+    Team: Rangers
+    City: New York
+    State: New York
+    Venue: Madison Square Garden
+    League: NHL
+-
+    Team: Flyers
+    City: Philadelphia
+    State: Pennsylvania
+    Venue: Wells Fargo Center
+    League: NHL
+-
+    Team: Penguins
+    City: Pittsburgh
+    State: Pennsylvania
+    Venue: Consol Energy Center
+    League: NHL
+-
+    Team: Bruins
+    City: Boston
+    State: Massachusetts
+    Venue: TD Garden
+    League: NHL
+-
+    Team: Sabres
+    City: Buffalo
+    State: New York
+    Venue: First Niagara Center
+    League: NHL
+-
+    Team: Canadiens
+    City: Montreal
+    State: Quebec
+    Venue: Bell Centre
+    League: NHL
+-
+    Team: Senators
+    City: Ottawa
+    State: Ontario
+    Venue: Scotiabank Place
+    League: NHL
+-
+    Team: Maple Leafs
+    City: Toronto
+    State: Ontario
+    Venue: Air Canada Centre
+    League: NHL
+-
+    Team: Hurricanes
+    City: Raleigh
+    State: North Carolina
+    Venue: RBC Center
+    League: NHL
+-
+    Team: Panthers
+    City: Sunrise
+    State: Florida
+    Venue: BankAtlantic Center
+    League: NHL
+-
+    Team: Lightning
+    City: Tampa
+    State: Florida
+    Venue: Tampa Bay Times Forum
+    League: NHL
+-
+    Team: Capitals
+    City: Washington
+    State: D.C.
+    Venue: Verizon Center
+    League: NHL
+-
+    Team: Jets
+    City: Winnipeg
+    State: Manitoba
+    Venue: MTS Centre
+    League: NHL
+-
+    Team: Blackhawks
+    City: Chicago
+    State: Illinois
+    Venue: United Center
+    League: NHL
+-
+    Team: Blue Jackets
+    City: Columbus
+    State: Ohio
+    Venue: Nationwide Arena
+    League: NHL
+-
+    Team: Red Wings
+    City: Detroit
+    State: Michigan
+    Venue: Joe Louis Arena
+    League: NHL
+-
+    Team: Predators
+    City: Nashville
+    State: Tennessee
+    Venue: Bridgestone Arena
+    League: NHL
+-
+    Team: Blues
+    City: St. Louis
+    State: Missouri
+    Venue: Scottrade Center
+    League: NHL
+-
+    Team: Flames
+    City: Calgary
+    State: Alberta
+    Venue: Scotiabank Saddledome
+    League: NHL
+-
+    Team: Avalanche
+    City: Denver
+    State: Colorado
+    Venue: Pepsi Center
+    League: NHL
+-
+    Team: Oilers
+    City: Edmonton
+    State: Alberta
+    Venue: Rexall Place
+    League: NHL
+-
+    Team: Wild
+    City: St. Paul
+    State: Minnesota
+    Venue: Xcel Energy Center
+    League: NHL
+-
+    Team: Canucks
+    City: Vancouver
+    State: British Columbia
+    Venue: Rogers Arena
+    League: NHL
+-
+    Team: Ducks
+    City: Anaheim
+    State: California
+    Venue: Honda Center
+    League: NHL
+-
+    Team: Stars
+    City: Dallas
+    State: Texas
+    Venue: American Airlines Center
+    League: NHL
+-
+    Team: Kings
+    City: Los Angeles
+    State: California
+    Venue: Staples Center
+    League: NHL
+-
+    Team: Coyotes
+    City: Phoenix
+    State: Arizona
+    Venue: Jobing.com Arena
+    League: NHL
+-
+    Team: Sharks
+    City: San Jose
+    State: California
+    Venue: HP Pavilion at San Jose
+    League: NHL

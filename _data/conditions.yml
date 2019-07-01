@@ -1,0 +1,24 @@
+---
+conditions:
+  - Pre-Owned
+  - New
+  - "New with tags"
+  - "New without tags"
+  - "New - Open Box"
+  - "Open Box"
+  - "New with box"
+  - "New without box"
+  - "Brand New"
+  - "Like New"
+  - "New other"
+  - "Very Good"
+  - Good
+  - Acceptable
+  - "Manufacturer refurbished"
+  - "Seller refurbished"
+  - Used
+  - "For parts or not working"
+  - "New with defects"
+  - "Certified pre-owned"
+  - Retread
+  - Damaged

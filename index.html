@@ -1,0 +1,275 @@
+---
+layout: home
+title: Home
+permalink: "/"
+class: home
+description: {{ site.description }}
+---
+
+<style>
+  .form-group {
+    display: block;
+  }
+
+  .form-group label,
+  .form-group input {
+    display: inline-block;
+    width: auto !important;
+  }
+
+  legend {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .unique-string {
+    font-size: 12px;
+  }
+</style>
+
+<form id="inventory">
+  <fieldset>
+    <legend>Admin:</legend>
+    <div class="form-group">
+      <label for="uniqueID">Unique ID:</label>
+      <input class="unique-string" id="unique_string" type="text" name="uniqueID" value="">
+    </div>
+
+    <!--- Inventory Owner --->
+    <div class="form-group">
+      <label for="owners">Owners:</label>
+      <input type="text" list="owners" name="owners" placeholder="Owners" tabindex="" value="P">
+    </div>
+    <datalist id="owners">
+      {% for owner in site.data.owners.owners %}
+      <option value="{{ owner }}">{{ owner }}</option>
+      {% endfor %}
+    </datalist>
+
+    <!--- CoGS --->
+    <div class="form-group">
+      <label for="cost">Cost:</label>
+      <input type="text" list="cost" name="cost" placeholder="$" tabindex="">
+    </div>
+    <datalist id="cost" value="">
+      {% for price in site.data.prices.prices %}
+      <option value="{{ price | money }}">{{ price | money }}</option>
+      {% endfor %}
+    </datalist>
+
+    <!--- Source --->
+    <div class="form-group">
+      <label for="sources">Source:</label>
+      <input type="text" list="sources" name="sources" placeholder="..." tabindex="" value="">
+    </div>
+    <datalist id="sources" value="Goodwill">
+      {% for source in site.data.sources.sources %}
+      <option value="{{ source }}">{{ source }}</option>
+      {% endfor %}
+    </datalist>
+
+    <div class="form-group">
+      <label for="image">Image</label>
+      <input type="file" name="image" accept="image/*">
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Item:</legend>
+    <!--- Category --->
+    <ul class="category-icons">
+      {% for category in site.data.categories.categories.store-categories %}
+      <li>
+        <label for="category">
+          <input type="radio" name="category" value="{{ category }}">
+          <img src="{{ site.baseurl }}/images/icons/{{ category }}.png" width="50">
+        </label>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <!--- Condition --->
+    <div class="form-group">
+      <label for="condition">Condition:</label>
+      <input type="text" list="condition" name="condition" placeholder="Condition" tabindex="" value="">
+    </div>
+    <datalist id="condition">
+      {% for condition in site.data.conditions.conditions %}
+      <option value="{{ condition }}">{{ condition }}</option>
+      {% endfor %}
+    </datalist>
+
+    <div class="form-group">
+      <label for="gender">Gender:</label>
+      <input type="text" list="gender" name="gender" placeholder="Gender" tabindex="" value="">
+    </div>
+    <datalist id="gender">
+      {% for gender in site.data.genders.genders %}
+      <option value="{{ gender }}">{{ gender }}</option>
+      {% endfor %}
+    </datalist>
+
+    <label for="colors">Color(s):</label>
+    <input type="color" name="colors" value="#ff0000">
+    <input type="color" name="colors" value="">
+    <input type="color" name="colors" value="">
+
+    <!--- Brand --->
+    <div class="form-group">
+      <label for="brand">Brand:</label>
+      <input type="text" list="brand" name="brand" placeholder="Brand" tabindex="">
+    </div>
+    <datalist id="brand">
+      {% for brand in site.data.brands.brands %}
+      <option value="{{ brand | uniq }}">{{ brand | uniq }}</option>
+      {% endfor %}
+    </datalist>
+
+    <!--- Sizes --->
+    <div class="form-group">
+      <label for="size_type">Size Type:</label>
+      <input type="text" list="size_type" name="size_type" placeholder="..." tabindex="" value="">
+    </div>
+    <datalist id="size_type">
+      {% for size_type in site.data.size_type.size_type %}
+      <option value="{{ size_type }}">{{ size_type }}</option>
+      {% endfor %}
+    </datalist>
+
+    <div class="form-group">
+      <label for="size">Size:</label>
+      <input type="text" list="size" name="size" placeholder="..." tabindex="">
+    </div>
+    <datalist id="size">
+      {% for size in site.data.sizes.sizes.size %}
+      <option value="{{ size | uniq }}">{{ size| uniq }}</option>
+      {% endfor %}
+    </datalist>
+
+    <!--- Necks --->
+    <div class="form-group">
+      <label for="styles">Neck:</label>
+      <input type="text" list="necks" name="necks" placeholder="..." tabindex="">
+    </div>
+    <datalist id="necks">
+      {% for neck in site.data.categories.categories.necklines %}
+      <option value="{{ neck }}">{{ neck }}</option>
+      {% endfor %}
+    </datalist>
+
+
+
+    <!--- Styles --->
+    <div class="form-group">
+      <label for="styles">Style:</label>
+      <input type="text" list="styles" name="styles" placeholder="..." tabindex="">
+    </div>
+    <datalist id="styles">
+      {% for style in site.data.categories.categories.styles %}
+      <option value="{{ style }}">{{ style }}</option>
+      {% endfor %}
+    </datalist>
+
+    <!--- Sleeves --->
+    <div class="form-group">
+      <label for="sleeves">Sleeves:</label>
+      <input type="text" list="sleeves" name="sleeves" placeholder="..." tabindex="">
+    </div>
+    <datalist id="sleeves">
+      {% for sleeve in site.data.shirts.shirts.sleeves %}
+      <option value="{{ sleeve }}">{{ sleeve }}</option>
+      {% endfor %}
+    </datalist>
+
+    <!--- Patterns --->
+    <div class="form-group">
+      <label for="pattern">Pattern:</label>
+      <input type="text" list="pattern" name="pattern" placeholder="..." tabindex="" value="">
+    </div>
+    <datalist id="pattern">
+      {% for pattern in site.data.patterns.patterns %}
+      <option value="{{ pattern }}">{{ pattern }}</option>
+      {% endfor %}
+    </datalist>
+
+    <!--- Material --->
+    <div class="form-group">
+      <label for="material">Material:</label>
+      <input type="text" list="material" name="material" placeholder="..." tabindex="" value="">
+    </div>
+    <datalist id="material">
+      {% for material in site.data.materials.materials %}
+      <option value="{{ material }}">{{ material }}</option>
+      {% endfor %}
+    </datalist>
+  </fieldset>
+
+  <fieldset>
+    <legend>Details:</legend>
+
+
+
+  </fieldset>
+
+  <fieldset>
+    <legend>Descriptors:</legend>
+    <!--- Themes --->
+    <div class="form-group">
+      <label for="themes">Theme:</label>
+      <input type="text" list="themes" name="themes" placeholder="..." tabindex="" value="">
+    </div>
+    <datalist id="themes">
+      {% for theme in site.data.themes.themes %}
+      <option value="{{ theme }}">{{ theme }}</option>
+      {% endfor %}
+    </datalist>
+
+    <!--- Seasons --->
+    <div class="form-group">
+      <label for="seasons">Season:</label>
+      <input type="text" list="seasons" name="seasons" placeholder="..." tabindex="" value="">
+    </div>
+    <datalist id="seasons">
+      {% for season in site.data.seasons.seasons %}
+      <option value="{{ season }}">{{ season }}</option>
+      {% endfor %}
+    </datalist>
+
+    <!--- Seasons --->
+    <div class="form-group">
+      <label for="holidays">Holiday:</label>
+      <input type="text" list="holidays" name="holidays" placeholder="..." tabindex="" value="">
+    </div>
+    <datalist id="holidays">
+      {% for holiday in site.data.holidays.holidays %}
+      <option value="{{ holiday }}">{{ holiday }}</option>
+      {% endfor %}
+    </datalist>
+
+    <!--- Teams --->
+    <div class="form-group">
+      <label for="teams">Team:</label>
+      <input type="text" list="teams" name="teams" placeholder="..." tabindex="">
+    </div>
+    <datalist id="teams">
+      {% for team in site.data.teams %}
+      <option value="{{ team.City }} {{ team.Team }}">{{ team.City }} {{ team.Team }}</option>
+      {% endfor %}
+    </datalist>
+  </fieldset>
+
+  <fieldset>
+    <legend>Specifics:</legend>
+    <!--- Manufacturer Country of Origin --->
+    <div class="form-group">
+      <label for="countries">Country:</label>
+      <input type="text" list="countries" name="countries" placeholder="..." tabindex="" value="China">
+    </div>
+    <datalist id="countries">
+      {% for country in site.data.countries.countries %}
+      <option value="{{ country }}">{{ country }}</option>
+      {% endfor %}
+    </datalist>
+  </fieldset>
+
+</form>

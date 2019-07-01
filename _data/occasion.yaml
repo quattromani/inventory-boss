@@ -1,0 +1,8 @@
+---
+occasion:
+  type:
+    - Casual
+    - Formal
+    - Work
+    - Party / Cocktail
+    - Dance

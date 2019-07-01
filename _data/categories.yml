@@ -1,0 +1,210 @@
+---
+categories:
+  category:
+    - Shirt
+    - Shoes
+    - "Cups & Mugs"
+    - Jeans
+    - Dress
+    - Pants
+    - Shorts
+    - Active
+    - Hoodie
+    - Sweatshirt
+    - Sweater
+    - Jacket
+    - Coat
+    - Electronic
+    - Game
+    - Lingerie
+    - Tie
+    - Vintage
+    - Book
+    - Housewares
+    - Other
+
+  necklines:
+    - Button-Up
+    - "Crew Neck"
+    - V-Neck
+    - Collar
+    - "Boat Neck"
+    - "Choker Neck"
+    - "Cowl Neck"
+    - "Criss Cross Neckline"
+    - "Deep V"
+    - Embellished
+    - Halter
+    - Henley
+    - Illusion
+    - "Low Cut"
+    - "Mock Neck"
+    - "Off Shoulder"
+    - "One Shoulder"
+    - "Scoop Neck"
+    - "Square Neck"
+    - Strapless
+    - Sweetheart
+    - "Tie Neck"
+    - Turtleneck
+
+  styles:
+    - "Button Up"
+    - "Button Down"
+    - Western
+    - Oxford
+    - "Knot Front"
+    - Tunic
+    - Drawstring
+    - Wrap
+    - Peasant
+    - Corset
+    - "Sweetheart Neck"
+    - Asymmetrical
+    - "Square Neck"
+    - "Portrait Neck"
+    - "Jewel Neck"
+    - Mandarin
+    - Jabot
+    - A-Line
+    - Apron
+    - Asymmetrical
+    - "Ball Gown"
+    - Basic
+    - Baggy
+    - Bellbottom
+    - Bermuda
+    - Blouson
+    - Bodycon
+    - Bootcut
+    - Caftan
+    - Cargo
+    - "City Short"
+    - Cropped
+    - Cuffed
+    - "Empire I"
+    - "Empire II"
+    - "Charleston / Flapper"
+    - Dolman
+    - Flared
+    - Halter
+    - Harem
+    - "High Waist"
+    - "Jumper Dress"
+    - Loose
+    - "Low / Drop Waist"
+    - One-Shoulder
+    - Pleated
+    - "Pouf / Ballon"
+    - Princess-Line
+    - "Qi Pao"
+    - Sheath
+    - Shift
+    - Skinny
+    - Slim
+    - "Slip Dress"
+    - "Straight Leg"
+    - Strapless
+    - "Sun Dress"
+    - Tapered
+    - Tent
+    - "Tunic Dress"
+    - "Wrap Dress"
+    - "Wide Leg"
+    - "Yoke Dress"
+    - "All Terrain Sandal"
+    - "Athletic Shoe"
+    - "Ballerina Flat"
+    - "Balmoral Shoe"
+    - Blucher
+    - "Boat Shoe"
+    - Boot
+    - Bootie
+    - Brogue
+    - "Casual After-Sport"
+    - "Cheerleading Shoe"
+    - "Chelsea Boot"
+    - "Chukka Boot"
+    - Circumference
+    - Clog
+    - Collar
+    - "Cowboy Boot"
+    - "Demi Boot"
+    - "Driving Moc"
+    - D’Orsay
+    - "Duty Shoe"
+    - "Engineer Boot"
+    - Espadrille
+    - "Fisherman Sandal"
+    - Fitness
+    - Flip-Flop
+    - Galosh
+    - "Gardening Clog"
+    - Ghillie
+    - "Harness Boot"
+    - Heel
+    - "Louis or French"
+    - "Baby Louis"
+    - "Built Heel"
+    - "Kitten Heel"
+    - Continental
+    - Cuban
+    - Stacked
+    - Wedge
+    - Huarache
+    - "Jodhpur Boot"
+    - "Light Hiking"
+    - Loafer
+    - "Mary Jane"
+    - "Mersey Boot"
+    - "Moc Toe"
+    - Moccasin
+    - "Monk Strap"
+    - "Motorcycle Boot"
+    - Mule
+    - Oxford
+    - "Peek-a-boo Toe"
+    - "Peep Toe"
+    - Penny-Loafer
+    - "Platform Shoe"
+    - Pumps
+    - "Riding Boot"
+    - "Running / Trail"
+    - "Saddle Shoes"
+    - "Safety Shoe"
+    - Sandal
+    - Skimmer
+    - Slide
+    - Slingback
+    - Slip-On
+    - Slipper
+    - Slouched
+    - Sneaker
+    - Stiletto
+    - "Strappy Sandal"
+    - "Thong Sandal"
+    - Tru-Moc
+    - T-Strap
+    - "Water Sports"
+    - Wellington
+    - "Western Roper"
+    - "Wing Tip"
+
+  store-categories:
+    - shirts
+    - ties
+    - mens-shoes
+    - ladies-shoes
+    - dresses
+    - cups-and-mugs
+    - teapots
+    - hats
+    - belts
+    - sports
+    - games
+    - electronics
+    - dvd
+    - vhs
+    - vintage
+    - lingerie
+    - vhs

@@ -1,0 +1,3 @@
+# Add that trailing slash to avoid redirect
+# - name: Home
+#   url: /

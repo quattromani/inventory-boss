@@ -1,0 +1,38 @@
+---
+shirts:
+  type:
+    - "Button Up"
+    - "Button Down"
+    - Oxford
+    - Western
+    - "Knot Front"
+    - Tunic
+    - Drawstring
+    - Wrap
+    - Peasant
+    - Corset
+    - "Sweetheart Neck"
+    - Asymmetrical
+    - "Square Neck"
+    - "Portrait Neck"
+    - "Jewel Neck"
+    - "Mandarin"
+    - Jabot
+
+  sleeves:
+    - "Long Sleeves"
+    - "Short Sleeves"
+    - "Raglan Sleeves"
+    - "Rolled Sleeves"
+    - "Cap Sleeves"
+    - "Half Sleeves"
+    - "Quarter Sleeves"
+    - "Three Quarter Sleeves"
+    - "Bell Sleeves"
+    - "Ballon Sleeves"
+    - "Ruffle Sleeves"
+    - "Puffed Sleeves"
+    - "Ballon Sleeves"
+    - "Flutter Sleeves"
+    - "Split Sleeves"
+    - "Cold Shoulder Sleeves"

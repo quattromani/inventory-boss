@@ -1,0 +1,38 @@
+
+  <script src="https://code.jquery.com/jquery-{{site.jquery-version}}.min.js" integrity="{{site.jquery-integrity}}" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/js/vendor/jquery-{{site.jquery-version}}.min.js"><\/script>')</script>
+
+  <script src="https://use.fontawesome.com/{{site.fontawesome-id}}.js" async></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.4/numeral.min.js"></script>
+  <script src="{{ site.baseurl }}/js/production.min.js" async></script>
+
+<script>
+  function gerar_string_alfanumerica(tamanho) {
+  var caracteres = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
+  var gerar_string_alfanumerica = "";
+  for(var i=0; i<tamanho; i++) {
+    var valor_aleatorio = Math.floor(Math.random() * caracteres.length);
+    gerar_string_alfanumerica += caracteres.substring(valor_aleatorio, valor_aleatorio + 1);
+  }
+  return gerar_string_alfanumerica;
+}
+
+var id_session = gerar_string_alfanumerica(5)+'-'+
+                  gerar_string_alfanumerica(5)+'-'+
+                  gerar_string_alfanumerica(4)+'-'+
+                  gerar_string_alfanumerica(5);
+
+document.getElementById("unique_string").value = id_session;
+</script>
+
+  {% include sw.html %}
+
+  {% if site.google-analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+
+  {% if site.social.disqus %}
+  {% include disqus.html %}
+  {% endif %}
+</body>
+</html>
